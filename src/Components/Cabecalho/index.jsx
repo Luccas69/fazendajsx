@@ -5,11 +5,10 @@ import mato from '../img/mato.png'
 export default function Cabecalho(){
 
     return (
-        <header className={styles.titulo}>
-            <Image src={mato} alt="imagem cabeçalho"
-             className="imagem-grande"/>
-            <div className="texto-sobreposto">
-             <h1>Fazenda Orgânica</h1>   
+        <header className={styles.container}>
+            <Image src={mato} alt="imagem cabeçalho" className="imagem-grande"/>
+            <div className={styles.texto}>
+                <h1>Fazenda Orgânica</h1>
             </div>
         </header>
     )
